@@ -1,10 +1,13 @@
 export const en = {
-    navbarAbout: "About Us",
-    navbarService: "Our Services",
-    navbarEdu: "Our Education Method",
-    navbarBlog: "Blog",
-    navbarFaq: "FAQ",
-    navbarContact: "Contact",
+    navbarMain: "Main",
+    navbarPrograms: "Scholarship Programs",
+    navbarApplication: "Application Process",
+    navbarLife: "Life in Turkey",
+    navbarStories: "Stories of Uzbek Students",
+    navbarEvents: "Events and Announcements",
+    navbarContact: "Contact and Support",
+    navbarMore: "More",
+
 
     headerHeading: "Learn Turkish",
     headerParagraph: "Open the Doors of the Turkish World...",

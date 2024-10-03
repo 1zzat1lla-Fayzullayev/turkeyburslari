@@ -55,7 +55,7 @@ function Header() {
     };
 
     return (
-        <div className="pt-[100px]">
+        <div className="">
             <Swiper
                 effect="fade"
                 autoplay={{ delay: 3000, disableOnInteraction: false }}

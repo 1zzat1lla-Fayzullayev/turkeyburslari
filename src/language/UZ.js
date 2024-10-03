@@ -1,10 +1,13 @@
 export const uz = {
-    navbarAbout: "Biz haqimizda",
-    navbarService: "Bizning xizmatlar",
-    navbarEdu: "Bizning ta'lim uslubimiz",
-    navbarBlog: "Blog",
-    navbarFaq: "KBS",
-    navbarContact: "Kontakt",
+    navbarMain: "Asosiy",
+    navbarPrograms: "Grant Dasturlari",
+    navbarApplication: "Ariza Jarayoni",
+    navbarLife: "Turkiyada Hayot",
+    navbarStories: "O'zbek Talabalari Hikoyalari",
+    navbarEvents: "Voqealar va E'lonlar",
+    navbarContact: "Aloqa va Qo'llab-quvvatlash",
+    navbarMore: "Ko'proq",
+
 
     headerHeading: "Turkcha o'rganing",
     headerParagraph: "Turk Dunyo eshiklarini oching…",
