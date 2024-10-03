@@ -1,12 +1,12 @@
 export const uz = {
-    navbarMain: "Asosiy",
-    navbarPrograms: "Grant Dasturlari",
-    navbarApplication: "Ariza Jarayoni",
-    navbarLife: "Turkiyada Hayot",
-    navbarStories: "O'zbek Talabalari Hikoyalari",
+    navbarMain: "Bosh sahifa",
+    navbarPrograms: "Grantlar",
+    navbarApplication: "Ariza",
+    navbarLife: "Turkiya",
+    navbarStories: "O'zbek Talabalari",
     navbarEvents: "Voqealar va E'lonlar",
-    navbarContact: "Aloqa va Qo'llab-quvvatlash",
-    navbarMore: "Ko'proq",
+    navbarContact: "Aloqa",
+
 
 
     headerHeading: "Turkcha o'rganing",

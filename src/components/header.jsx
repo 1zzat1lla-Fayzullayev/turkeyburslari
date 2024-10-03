@@ -81,14 +81,14 @@ function Header() {
                             <div className="text-center text-white">
                                 <h2
                                     ref={h2Ref}
-                                    className="text-4xl lg:text-6xl font-bold animate-bottom-to-top h2"
+                                    className="text-[20px] lg:text-6xl font-bold animate-bottom-to-top h2"
                                     style={{ visibility: "hidden", animationDelay: "0s" }} // Dastlab yashirin
                                 >
                                     #TürkiyeScholarships2024
                                 </h2>
                                 <h3
                                     ref={h3Ref}
-                                    className="text-xl lg:text-2xl mt-4 animate-bottom-to-top h3"
+                                    className="text-[16px] lg:text-2xl mt-4 animate-bottom-to-top h3"
                                     style={{ visibility: "hidden", animationDelay: "1s" }} // Kechiktirilgan animatsiya
                                 >
                                     Results for the world's most comprehensive scholarship program are announced!
@@ -109,14 +109,14 @@ function Header() {
                             <div className="text-center text-white">
                                 <h2
                                     ref={h2Ref}
-                                    className="text-4xl lg:text-6xl font-bold animate-bottom-to-top h2"
+                                    className="text-[20px] lg:text-6xl font-bold animate-bottom-to-top h2"
                                     style={{ visibility: "hidden", animationDelay: "0s" }} // Dastlab yashirin
                                 >
                                     #TürkiyeScholarships2024
                                 </h2>
                                 <h3
                                     ref={h3Ref}
-                                    className="text-xl lg:text-2xl mt-4 animate-bottom-to-top h3"
+                                    className="text-[16px] lg:text-2xl mt-4 animate-bottom-to-top h3"
                                     style={{ visibility: "hidden", animationDelay: "1s" }} // Kechiktirilgan animatsiya
                                 >
                                     Results for the world's most comprehensive scholarship program are announced!
@@ -137,14 +137,14 @@ function Header() {
                             <div className="text-center text-white">
                                 <h2
                                     ref={h2Ref}
-                                    className="text-4xl lg:text-6xl font-bold animate-bottom-to-top h2"
+                                    className="text-[20px] lg:text-6xl font-bold animate-bottom-to-top h2"
                                     style={{ visibility: "hidden", animationDelay: "0s" }} // Dastlab yashirin
                                 >
                                     #TürkiyeScholarships2024
                                 </h2>
                                 <h3
                                     ref={h3Ref}
-                                    className="text-xl lg:text-2xl mt-4 animate-bottom-to-top h3"
+                                    className="text-[16px] lg:text-2xl mt-4 animate-bottom-to-top h3"
                                     style={{ visibility: "hidden", animationDelay: "1s" }} // Kechiktirilgan animatsiya
                                 >
                                     Results for the world's most comprehensive scholarship program are announced!

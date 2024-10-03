@@ -15,7 +15,7 @@ function Navbar({ theme, setTheme }) {
     const { selectedLanguage, selectedFlag, changeLanguage } = useContext(LanguageContext)
 
     const changeNavbar = () => {
-        if (window.scrollY >= 30 && !isMenuOpen) { 
+        if (window.scrollY >= 30 && !isMenuOpen) {
             setNavbar(true);
         } else {
             setNavbar(false);
@@ -68,26 +68,30 @@ function Navbar({ theme, setTheme }) {
                                 className='w-36 lg:w-44 cursor-pointer'
                             />
                         </Link>
-                        <ul className="lg:flex hidden items-center gap-[20px]">
+                        <ul className="lg:flex hidden items-center gap-[40px]">
                             <li><Link to={'/'} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarMain")}</Link></li>
                             <li><Link to={"/"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarPrograms")}</Link></li>
                             <li><Link to={"/"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarApplication")}</Link></li>
+                            <li><Link to={"/"} className="text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50">{getText("navbarLife")}</Link></li>
+                            <li><Link to={"/"} className="text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50">{getText("navbarStories")}</Link></li>
+                            <li><Link to={"/"} className="text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50">{getText("navbarEvents")}</Link></li>
+                            <li><Link to={"/"} className="text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50">{getText("navbarContact")}</Link></li>
                             {/* Dropdown boshlanishi */}
                             <li className="relative">
-                                <button
+                                {/* <button
                                     onClick={toggleDropdown}
                                     className="text-base text-mainBlue dark:text-white dark:opacity-50 flex items-center cursor-pointer"
                                 >
-                                    {getText("navbarMore")} {/* Qo'shimcha linklar uchun */}
-                                </button>
-                                {isDropdownOpen && (
+                                    {getText("navbarMore")} 
+                                </button> */}
+                                {/* {isDropdownOpen && (
                                     <ul className="absolute top-full mt-2 bg-white shadow-lg rounded-lg py-2 w-48 z-10 dark:bg-[#121624]">
                                         <li><Link to={"/"} className="block px-4 py-2 text-mainBlue dark:text-white hover:bg-gray-200 dark:hover:bg-gray-800">{getText("navbarLife")}</Link></li>
                                         <li><Link to={"/"} className="block px-4 py-2 text-mainBlue dark:text-white hover:bg-gray-200 dark:hover:bg-gray-800">{getText("navbarStories")}</Link></li>
                                         <li><Link to={"/"} className="block px-4 py-2 text-mainBlue dark:text-white hover:bg-gray-200 dark:hover:bg-gray-800">{getText("navbarEvents")}</Link></li>
                                         <li><Link to={"/"} className="block px-4 py-2 text-mainBlue dark:text-white hover:bg-gray-200 dark:hover:bg-gray-800">{getText("navbarContact")}</Link></li>
                                     </ul>
-                                )}
+                                 )} */}
                             </li>
                             {/* Dropdown tugadi */}
                         </ul>

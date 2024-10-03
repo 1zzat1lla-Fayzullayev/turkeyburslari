@@ -1,12 +1,11 @@
 export const tr = {
     navbarMain: "Ana Sayfa",
-    navbarPrograms: "Burs Programları",
-    navbarApplication: "Başvuru Süreci",
-    navbarLife: "Life in Turkey",
-    navbarStories: "Stories of Uzbek Students",
+    navbarPrograms: "Burslar",
+    navbarApplication: "Başvuru",
+    navbarLife: "Turkiye",
+    navbarStories: "Uzbek Students",
     navbarEvents: "Etkinlikler ve Duyurular",
-    navbarContact: "İletişim ve Destek",
-    navbarMore: "Fazla",
+    navbarContact: "İletişim",
 
 
     headerHeading: "Türkçe öğrenin",

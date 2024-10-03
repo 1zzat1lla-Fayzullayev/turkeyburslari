@@ -367,6 +367,9 @@ html.dark body {
     width: 78px;
     height: 78px;
     border-radius: 50%;
+    @media (max-width: 768px) {
+        display: none;
+    }
 }
 
 .swiper-button-prev {
@@ -374,6 +377,9 @@ html.dark body {
     height: 78px;
     width: 78px;
     border-radius: 50%;
+    @media (max-width: 768px) {
+        display: none;
+    }
 }
 
 .swiper-button-next:hover {
