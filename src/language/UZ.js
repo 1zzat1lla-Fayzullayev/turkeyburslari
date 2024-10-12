@@ -6,6 +6,8 @@ export const uz = {
     navbarStories: "O'zbek Talabalari",
     navbarEvents: "Voqealar va E'lonlar",
     navbarContact: "Aloqa",
+    navbarAbout: "Biz haqimizda",
+    navbarScholarship: "Grant oluvchilar",
 
 
 
@@ -23,6 +25,44 @@ export const uz = {
     whySelectedCard2: "Haqiqiy imtihonlarga yaqin test xizmatlari",
     whySelectedCard3: "Bepul tadbirlar",
     whySelectedCard4: "Talabalar uchun maxsus karera maslahat va rivojlanish dasturi",
+
+    aboutPageTitle: "Biz kimmiz?",
+    aboutPagePSpan1: "Biz,",
+    aboutPagePSpan2: "Turkiya Grantlari",
+    aboutPagePSpan3: "bo'yicha ixtisoslashgan, ta'lim dunyosiga yo'n beradigan maslahat firmamiz. Maqsadimiz, O'zbekistondagi yoshlarga jahon standartlariga mos ta'lim olish imkoniyatini yaratish.",
+    aboutPageP2: "Turkiyaning nufuzli universitetlarida grant asosida ta'lim olish imkoniyatlarini taqdim etib, talabalarimizga orzularidan ham yuqori marralarga erishish yo'lida yordam beramiz.",
+    aboutPageP3: "Akademik maqsadlaringiz qanday bo'lishidan qat'i nazar, biz bu yo'lda siz bilan birga yurib, to'g'ri universitet va grant dasturlarini tanlashda ko'maklashamiz.",
+    aboutPageP4: "Sizning muvaffaqiyatingiz uchun zarur bo'lgan barcha ma'lumotlar, qo'llab-quvvatlash va yo'l-yo'riqlarni taqdim etishni va'da qilamiz.",
+    aboutPageEndP: "Kelajagingizni birgalikda qurish uchun shu yerdamiz!",
+
+    burslarPageTitle: "Turkiya Grantlari",
+    burslarPageP1: ", talabalar uchun nafaqat akademik muvaffaqiyat, balki madaniy boylik va global dunyoqarashni ham taqdim etadi.",
+    burslarPageP2: "Turkiyaning eng nufuzli universitetlarida, to'liq grant asosida ta'lim olish imkoniyati bilan kelajagingizni kafolatlashing.",
+    burslarPageP3: "Grantlar faqat ta'lim xarajatlaringizni qoplab qolmaydi; balki turar joy, tibbiy sug'urta, oylik stipendiya va til o'rganish kabi ko'plab imtiyozlarni ham taqdim etadi.",
+    burslarPageP4: "Orzu qilgan yo'nalishingiz va universitetingizga yetib borishingizni ta'minlaydigan turli grant dasturlari haqida ma'lumot oling.",
+    burslariPageEndSpan1: "Ta'limda cheksiz tajriba",
+    burslariPageEndSpan2: "uchun Turkiya Grantlariga murojaat qiling va kelajakka ishonch bilan qadam tashlang!",
+
+    applicationTitle: "Turkiya Grantlariga Ariza",
+    applicationP1: "'Turkiya Grantlariga qanday ariza berishim mumkin?' savoli sizni endi chalkashtirmasin! Biz ariza jarayonining har bosqichida siz bilan birgamiz.",
+    applicationP2: "To'g'ri hujjatlarni to'plash, ariza formasini to'liq to'ldirish va motivatsion xat yozish kabi qiyin bosqichlarda sizga yo'l-yo'riq beramiz.",
+    applicationP3: "Jamoamiz arizangizning muammosiz va muvaffaqiyatli tugallanishi uchun zarur bo'lgan barcha qadamlarni rejalashtirib, jarayonni osonlashtiradi.",
+    applicationP4: "Arizalaringizni ishonch bilan to'ldirib, Turkiyaning nufuzli universitetlarida o'rningizni olish uchun birinchi qadamni tashlang!",
+
+    scholarship: "Muvaffaqiyat Hikoyalari",
+    scholarshipP1Span1: "Muvaffaqiyatga olib boruvchi yo'lda yolg'iz emassiz!",
+    scholarshipP1Span2: "Turkiya grantlarini qo'lga kiritgan va ta'lim hayotlarini Turkiyada davom ettirayotgan talabalarning ilhomlantiruvchi hikoyalarini kashf eting.",
+    scholarshipP2: "Bu talabalar, siz kabi orzu qilib boshlagan yo'lda, qat'iyat va jasorat bilan maqsadlariga erishdilar.",
+    scholarshipP3: "Ularning tajribalari sizni motivatsiya qiladi va ariza jarayonida hamda ta'lim safaringizda duch kelishingiz mumkin bo'lgan qiyinchiliklarga tayyorlanishingizga yordam beradi.",
+    scholarshipEndSpan1: "Siz ham muvaffaqiyat hikoyangizni yozishga tayyormisiz?",
+    scholarshipEndSpan2: "Keling, orzuingizdagi kelajakni birga quraylik.",
+
+    eventsTitle: "Bizning Tadbirlarimiz",
+    eventsP1: "Ta'lim va grant imkoniyatlari haqida ko'proq ma'lumot olish va Türkiye Burslari haqida qiziqtirgan barcha savollaringizga javob topish uchun o'tkazayotgan tadbirlarimizga qo'shiling.",
+    eventsP2: "Onlayn seminarlar, yuzma-yuz ma'lumot berish uchrashuvlari va taqdimot kunlarimizda mutaxassislarimiz bilan birma-bir muloqot qilish imkoniyatini qo'lga kiritishingiz mumkin.",
+    eventsP3: "Turkiyada ta'lim olishning afzalliklarini birinchi qo'l bilan o'rganing va grant ariza jarayonida siz uchun eng mos imkoniyatlarni kashf eting.",
+    eventsP4: "Karyerangizni shakllantirish va kelajagingizga yo'naltirish uchun tadbirlarimizda ishtirok eting!",
+
 
     teachersHeading: "O'qituvchilarimiz",
     teacherParagraph: "Haqiqiy qahramonlar, ular bilan quyida tanishishingiz mumkin",

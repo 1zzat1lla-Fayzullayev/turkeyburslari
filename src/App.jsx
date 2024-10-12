@@ -1,14 +1,8 @@
 /* eslint-disable no-unused-vars */
-import { useEffect, useState } from "react"
 import Header from "./components/header"
-import Navbar from "./components/navbar"
 import Cards from "./components/cards"
-import WhySelected from "./components/whySelected"
-import SecondSwiper from "./components/secondSwiper"
-import Teachers from "./components/teachers"
-import Footer from "./components/footer"
+
 import ContactUS from "./components/contactUS"
-import { LanguageProvider } from "./context/LanguageContext"
 
 function App() {
   // const [theme, setTheme] = useState('light');
@@ -27,9 +21,9 @@ function App() {
     <>
         <Header />
         <Cards />
-        <WhySelected />
+        {/* <WhySelected /> */}
         {/* <SecondSwiper /> */}
-        <Teachers />
+        {/* <Teachers /> */}
         <ContactUS />
     </>
   )

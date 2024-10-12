@@ -6,6 +6,9 @@ export const en = {
     navbarStories: "Uzbek Students",
     navbarEvents: "Events and Announcements",
     navbarContact: "Contact",
+    navbarAbout: "About Us",
+    navbarScholarship: "Scholarship recipients",
+
 
 
 
@@ -23,6 +26,44 @@ export const en = {
     whySelectedCard2: "Test Services Close to Real Exams",
     whySelectedCard3: "Free Events",
     whySelectedCard4: "Student-Specific Career Counseling and Development Program",
+
+    aboutPageTitle: "Who Are We?",
+    aboutPagePSpan1: "We are a",
+    aboutPagePSpan2: "consultancy firm specialized in",
+    aboutPagePSpan3: "Türkiye Scholarships, leading the world of education. Our aim is to provide young people in Uzbekistan with an education that meets global standards.",
+    aboutPageP2: "By introducing scholarship opportunities at Turkey’s prestigious universities, we guide our students to exceed their dreams.",
+    aboutPageP3: "No matter what your academic goals are, we walk alongside you on this journey, helping you choose the right university and scholarship programs.",
+    aboutPageP4: "We are committed to providing all the necessary information, support, and guidance to help you achieve success.",
+    aboutPageEndP: "We are here to build your future together!",
+
+    burslarPageTitle: "Türkiye Scholarships",
+    burslarPageP1: ", offers not only academic success but also cultural richness and a global perspective for students.",
+    burslarPageP2: "Secure your future with fully funded education opportunities at Turkey’s most prestigious universities.",
+    burslarPageP3: "The scholarships do not only cover your tuition fees; they also offer many benefits like accommodation, health insurance, a monthly stipend, and language education.",
+    burslarPageP4: "Get information about various scholarship programs that will help you reach your dream department and university.",
+    burslariPageEndSpan1: "An experience without limits in education",
+    burslariPageEndSpan2: "– apply for Türkiye Scholarships and step confidently towards the future!",
+
+    applicationTitle: "Application for Türkiye Scholarships",
+    applicationP1: "Don't let the question 'How can I apply for Türkiye Scholarships?' confuse you anymore! We are with you at every stage of the application process.",
+    applicationP2: "We guide you through challenging steps like collecting the right documents, filling out the application form completely, and writing a motivation letter.",
+    applicationP3: "Our team facilitates the process by planning all the necessary steps to ensure your application is completed smoothly and successfully.",
+    applicationP4: "Take the first step towards securing your place at Turkey's esteemed universities by completing your applications with confidence!",
+
+    scholarship: "Success Stories",
+    scholarshipP1Span1: "You are not alone on the path to success!",
+    scholarshipP1Span2: "Discover the inspiring stories of our students who have won Türkiye scholarships and continue their educational journeys in Turkey.",
+    scholarshipP2: "These students reached their goals with determination and perseverance on their journey, just like you dream of doing.",
+    scholarshipP3: "Their experiences will motivate you and prepare you for the challenges you may face during the application process and your educational journey.",
+    scholarshipEndSpan1: "Are you ready to write your success story?",
+    scholarshipEndSpan2: "Come on, let's build the future of your dreams together.",
+
+    eventsTitle: "Our Events",
+    eventsP1: "Join the events we organize to learn more about education and scholarship opportunities and to find answers to all your questions about Türkiye Scholarships.",
+    eventsP2: "You can seize the opportunity to meet with our experts one-on-one in our online seminars, face-to-face information meetings, and promotion days.",
+    eventsP3: "Learn firsthand about the advantages of studying in Turkey and discover the most suitable opportunities for you during the scholarship application process.",
+    eventsP4: "Participate in our events to shape your career and guide your future!",
+
 
     teachersHeading: "Our Teachers",
     teacherParagraph: "Real heroes, you can meet them below",

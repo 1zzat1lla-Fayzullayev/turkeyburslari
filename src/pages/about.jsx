@@ -10,29 +10,29 @@ function About() {
 
   return (
     <div
-      className="pt-[150px] transition-colors duration-300"
+      className="pt-[150px] transition-colors duration-300 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100"
       style={{ minHeight: "calc(100vh - 22.8rem)" }}
     >
       <Wrapper>
-        <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-          <div className="md:w-1/2 lg:w-2/5 px-4">
-            <h2 className="text-4xl md:text-5xl  text-mainBlue dark:text-white mb-6">
-              <span className="font-[700]">{getText("aboutTitleSpan")}</span> <br /> <span className="font-[500]">{getText("aboutTitle")}</span>
-            </h2>
-            <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-              {getText("aboutParagraph")}
-            </p>
-            <button className="mt-4 bg-mainBlue text-white py-2 px-6 rounded-full hover:bg-blue-700 transition">
-              {getText("learnMore")}
-            </button>
-          </div>
-          <div className="md:w-1/2 lg:w-3/5">
-            <img
-              src="https://media.istockphoto.com/id/546171270/photo/question-do-you-speak-turkish-written-in-turkish.jpg?b=1&s=170667a&w=0&k=20&c=ks-gITsS_8OnnmRPOfaic0UpCi5n7ugcp7_bCVCHYaE="
-              alt="Language banner"
-              className="rounded-lg shadow-xl"
-            />
-          </div>
+        <div className="max-w-4xl p-6 rounded-lg">
+          <h1 className="text-4xl font-bold mb-6 text-start text-blue-600 dark:text-blue-400">
+            {getText("aboutPageTitle")}
+          </h1>
+          <p className="text-lg leading-relaxed mb-4">
+            {getText("aboutPagePSpan1")} <span className="font-semibold">{getText("aboutPagePSpan2")}</span> {getText("aboutPagePSpan3")}
+          </p>
+          <p className="text-lg leading-relaxed mb-4">
+            {getText("aboutPageP2")}
+          </p>
+          <p className="text-lg leading-relaxed mb-4">
+            {getText("aboutPageP3")}
+          </p>
+          <p className="text-lg leading-relaxed mb-4">
+            {getText("aboutPageP4")}
+          </p>
+          <p className="text-lg leading-relaxed mb-4">
+            <span className="font-semibold">{getText("aboutPageEndP")}</span>
+          </p>
         </div>
       </Wrapper>
     </div>

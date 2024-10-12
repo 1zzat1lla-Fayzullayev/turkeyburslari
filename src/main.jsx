@@ -7,12 +7,14 @@ import About from "./pages/about.jsx";
 import { LanguageProvider } from "./context/LanguageContext.jsx";
 import Services from "./pages/services.jsx";
 import Education from "./pages/education.jsx";
-import Blog from "./pages/blog.jsx";
-import Faq from "./pages/faq.jsx";
 import Contact from "./pages/contact.jsx";
 import Navbar from "./components/navbar.jsx";
 import { useEffect, useState } from "react";
 import Footer from "./components/footer.jsx";
+import Burslar from "./pages/burslar.jsx";
+import Application from "./pages/application.jsx";
+import Scholarship from "./pages/scholarship.jsx";
+import Events from "./pages/events.jsx";
 
 const Root = () => {
   const [theme, setTheme] = useState("light");
@@ -34,9 +36,14 @@ const Root = () => {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/education-method" element={<Education />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/faq" element={<Faq />} />
+          {/* <Route path="/blog" element={<Blog />} /> */}
+          {/* <Route path="/faq" element={<Faq />} /> */}
           <Route path="/contact" element={<Contact />} />
+          <Route path="/burslar" element={<Burslar />} />
+          <Route path="/application" element={<Application />} />
+          <Route path="/scholarship" element={<Scholarship />} />
+          <Route path="/events" element={<Events />} />
+
         </Routes>
       </BrowserRouter>
       <Footer theme={theme} setTheme={setTheme} />

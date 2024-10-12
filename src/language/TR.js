@@ -6,6 +6,9 @@ export const tr = {
     navbarStories: "Uzbek Students",
     navbarEvents: "Etkinlikler ve Duyurular",
     navbarContact: "İletişim",
+    navbarAbout: "Hakkımızda",
+    navbarScholarship: "Burs alanlar",
+
 
 
     headerHeading: "Türkçe öğrenin",
@@ -23,6 +26,42 @@ export const tr = {
     whySelectedCard3: "Ücretsiz Etkinlikler",
     whySelectedCard4: "Öğrenciye Özel Kariyer Danışmanlığı ve Gelişim Program",
 
+    aboutPageTitle: "Biz Kimiz?",
+    aboutPagePSpan1: "Biz,",
+    aboutPagePSpan2: "Türkiye Bursları",
+    aboutPagePSpan3: "üzerine uzmanlaşmış, eğitim dünyasına yön veren bir danışmanlık firmasıyız. Amacımız, Özbekistan’daki gençlerin dünya standartlarında bir eğitimle buluşmasını sağlamak.",
+    aboutPageP2: "Türkiye’nin köklü üniversitelerinde burslu eğitim fırsatlarını tanıtarak, öğrencilerimize hayallerinin ötesine geçmeleri için yol gösteriyoruz.",
+    aboutPageP3: "Akademik hedefleriniz ne olursa olsun, biz sizinle bu yolda birlikte yürüyerek, doğru üniversite ve burs programlarını seçmenize yardımcı oluyoruz.",
+    aboutPageP4: "Başarıya ulaşmanız için gerekli tüm bilgileri, desteği ve rehberliği sağlamayı taahhüt ediyoruz.",
+    aboutPageEndP: "Geleceğinizi birlikte inşa etmek için buradayız!",
+
+    burslarPageTitle: "Türkiye Bursları",
+    burslarPageP1: ", öğrenciler için yalnızca akademik başarıyı değil, aynı zamanda kültürel zenginliği ve küresel perspektifi de sunuyor.",
+    burslarPageP2: "Türkiye’nin en prestijli üniversitelerinde, tam burslu eğitim imkanıyla geleceğinizi güvence altına alın.",
+    burslarPageP3: "Burslar sadece eğitim ücretinizi karşılamakla kalmaz; aynı zamanda konaklama, sağlık sigortası, aylık harçlık ve dil eğitimi gibi birçok ayrıcalık sunar.",
+    burslarPageP4: "Hayalinizdeki bölüme ve üniversiteye ulaşmanızı sağlayacak farklı burs programları hakkında bilgi alın.",
+    burslariPageEndSpan1: "Eğitimde sınır tanımayan bir deneyim",
+    burslariPageEndSpan2: "için Türkiye Bursları’na başvurun ve geleceğe emin adımlarla ilerleyin!",
+
+    applicationTitle: "Türkiye Burslarına Başvuru",
+    applicationP1: "“Türkiye Burslarına nasıl başvurabilirim?” sorusu artık kafanızı karıştırmasın! Başvuru sürecinin her aşamasında sizin yanınızdayız.",
+    applicationP2: "Doğru belgeleri toplamak, başvuru formunu eksiksiz doldurmak ve motivasyon mektubu yazmak gibi zorlu adımlarda size rehberlik ediyoruz.",
+    applicationP3: "Ekibimiz, başvurunuzun sorunsuz ve başarılı bir şekilde tamamlanması için gereken tüm adımları planlayarak süreci kolaylaştırıyor.",
+    applicationP4: "Başvurularınızı güvenle tamamlayarak, Türkiye’nin saygın üniversitelerinde yerinizi almak için ilk adımı atın!",
+
+    scholarship: "Başarı Hikayeleri",
+    scholarshipP1Span1: "Başarıya giden yolda yalnız değilsiniz!",
+    scholarshipP1Span2: "Türkiye burslarını kazanmış ve eğitim hayatlarına Türkiye’de devam eden öğrencilerimizin ilham veren hikayelerini keşfedin.",
+    scholarshipP2: "Bu öğrenciler, tıpkı sizin gibi hayal kurarak çıktıkları bu yolculukta, azim ve kararlılıkla hedeflerine ulaştılar.",
+    scholarshipP3: "Onların deneyimleri, sizi motive edecek, başvuru sürecinde ve eğitim yolculuğunuzda karşılaşabileceğiniz zorluklara karşı hazırlıklı olmanızı sağlayacak.",
+    scholarshipEndSpan1: "Siz de başarı hikayenizi yazmaya hazır mısınız?",
+    scholarshipEndSpan2: "Gelin, hayalinizdeki geleceği birlikte inşa edelim.",
+
+    eventsTitle: "Etkinliklerimiz",
+    eventsP1: "Eğitim ve burs olanaklarıyla ilgili daha fazla bilgi edinmek ve Türkiye Bursları hakkında merak ettiğiniz tüm sorulara cevap bulmak için düzenlediğimiz etkinliklere katılın.",
+    eventsP2: "Online seminerler, yüz yüze bilgilendirme toplantıları ve tanıtım günlerimizde uzmanlarımızla birebir görüşme fırsatı yakalayabilirsiniz.",
+    eventsP3: "Türkiye’de eğitim almanın sunduğu avantajları ilk elden öğrenin ve burs başvurusu sürecinde size en uygun fırsatları keşfedin.",
+    eventsP4: "Kariyerinizi şekillendirmek ve geleceğinize yön vermek için etkinliklerimize katılın!",
 
     teachersHeading: "Öğretmenlerimiz",
     teacherParagraph: "Gerçek kahramanlar, onlarla aşağıda tanışabilirsiniz",

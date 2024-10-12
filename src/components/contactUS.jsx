@@ -103,7 +103,7 @@ const ContactUS = () => {
                                 type="email"
                             />
                         </div>
-                        <div className="inputWrap mb-4">
+                        {/* <div className="inputWrap mb-4">
                             <select
                                 onChange={(e) => setService(e.target.value)}
                                 value={service}
@@ -120,7 +120,7 @@ const ContactUS = () => {
                                 <option className="bg-transparent text-black" value="C1">C1</option>
                                 <option className="bg-transparent text-black" value="C2">C2</option>
                             </select>
-                        </div>
+                        </div> */}
                         <div className="inputWrap mb-4">
                             <textarea
                                 placeholder={getText("contactInputMessage")}

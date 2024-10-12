@@ -11,7 +11,7 @@ function Navbar({ theme, setTheme }) {
     const [isLangMenuOpen, setLangMenuOpen] = useState(false);
     const [isMenuOpen, setMenuOpen] = useState(false);
     const [navbar, setNavbar] = useState(false);
-    const [isDropdownOpen, setDropdownOpen] = useState(false); // Dropdown uchun state
+    const [isDropdownOpen, setDropdownOpen] = useState(false);
     const { selectedLanguage, selectedFlag, changeLanguage } = useContext(LanguageContext)
 
     const changeNavbar = () => {
@@ -63,37 +63,19 @@ function Navbar({ theme, setTheme }) {
                     <div className="flex items-center gap-[30px]">
                         <Link to={"/"}>
                             <img
-                                src={theme === 'light' ? "/turkchasoati1.png" : "/turkchasoati2.png"}
+                                src={"/logo.png"}
                                 alt="Logo"
                                 className='w-36 lg:w-44 cursor-pointer'
                             />
                         </Link>
                         <ul className="lg:flex hidden items-center gap-[40px]">
-                            <li><Link to={'/'} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarMain")}</Link></li>
-                            <li><Link to={"/"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarPrograms")}</Link></li>
-                            <li><Link to={"/"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarApplication")}</Link></li>
-                            <li><Link to={"/"} className="text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50">{getText("navbarLife")}</Link></li>
-                            <li><Link to={"/"} className="text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50">{getText("navbarStories")}</Link></li>
-                            <li><Link to={"/"} className="text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50">{getText("navbarEvents")}</Link></li>
-                            <li><Link to={"/"} className="text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50">{getText("navbarContact")}</Link></li>
-                            {/* Dropdown boshlanishi */}
-                            <li className="relative">
-                                {/* <button
-                                    onClick={toggleDropdown}
-                                    className="text-base text-mainBlue dark:text-white dark:opacity-50 flex items-center cursor-pointer"
-                                >
-                                    {getText("navbarMore")} 
-                                </button> */}
-                                {/* {isDropdownOpen && (
-                                    <ul className="absolute top-full mt-2 bg-white shadow-lg rounded-lg py-2 w-48 z-10 dark:bg-[#121624]">
-                                        <li><Link to={"/"} className="block px-4 py-2 text-mainBlue dark:text-white hover:bg-gray-200 dark:hover:bg-gray-800">{getText("navbarLife")}</Link></li>
-                                        <li><Link to={"/"} className="block px-4 py-2 text-mainBlue dark:text-white hover:bg-gray-200 dark:hover:bg-gray-800">{getText("navbarStories")}</Link></li>
-                                        <li><Link to={"/"} className="block px-4 py-2 text-mainBlue dark:text-white hover:bg-gray-200 dark:hover:bg-gray-800">{getText("navbarEvents")}</Link></li>
-                                        <li><Link to={"/"} className="block px-4 py-2 text-mainBlue dark:text-white hover:bg-gray-200 dark:hover:bg-gray-800">{getText("navbarContact")}</Link></li>
-                                    </ul>
-                                 )} */}
-                            </li>
-                            {/* Dropdown tugadi */}
+                            <li><Link to={'/about'} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarAbout")}</Link></li>
+                            <li><Link to={"/burslar"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarPrograms")}</Link></li>
+                            <li><Link to={"/application"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarApplication")}</Link></li>
+                            <li><Link to={"/scholarship"} className="text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50">{getText("navbarScholarship")}</Link></li>
+                            <li><Link to={"/events"} className="text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50">{getText("navbarEvents")}</Link></li>
+                            <li><Link to={"/contact"} className="text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50">{getText("navbarContact")}</Link></li>
+
                         </ul>
                     </div>
                     <div className='flex items-center gap-[15px]'>
@@ -126,6 +108,16 @@ function Navbar({ theme, setTheme }) {
                     </div>
                 </div>
             </Wrapper>
+            <div className={`menu duration-300 h-full xl:w-[calc(100%-170px)] lg:hidden max-w-xl xl:max-w-none xl:h-auto bg-white fixed inset-0 z-[99] pt-20 lg:pt-24 px-5 pb-6 flex flex-col justify-between xl:hidden dark:bg-[#121624] ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+                <div className="xl:flex xl:gap-x-5">
+                    <li onClick={toggleMenu}><Link to={'/about'} className='font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10'>{getText("navbarAbout")}</Link></li>
+                    <li onClick={toggleMenu}><Link to={"/burslar"} className='font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10'>{getText("navbarPrograms")}</Link></li>
+                    <li onClick={toggleMenu}><Link to={"/application"} className='font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10'>{getText("navbarApplication")}</Link></li>
+                    <li onClick={toggleMenu}><Link to={"/scholarship"} className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10">{getText("navbarScholarship")}</Link></li>
+                    <li onClick={toggleMenu}><Link to={"/events"} className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10">{getText("navbarEvents")}</Link></li>
+                    <li onClick={toggleMenu}><Link to={"/contact"} className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10">{getText("navbarContact")}</Link></li>
+                </div>
+            </div>
         </div>
     );
 }

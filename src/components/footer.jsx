@@ -20,7 +20,7 @@ function Footer({ theme }) {
                         <div className="py-6 flex flex-col sm:flex-row justify-between items-start gap-6 md:gap-12 lg:py-12">
                             <div className="max-w-sm">
                                 <img
-                                    src={theme === 'light' ? "/turkchasoati1.png" : "/turkchasoati2.png"}
+                                    src={"/logo.png"}
                                     alt="Logo"
                                     className='w-36 lg:w-48'
                                 />

@@ -48,7 +48,7 @@ function Header() {
         h2Element.classList.remove("animate-bottom-to-top");
         h3Element.classList.remove("animate-bottom-to-top");
 
-        void h2Element.offsetWidth;
+        h2Element.offsetWidth;
 
         h2Element.classList.add("animate-bottom-to-top");
         h3Element.classList.add("animate-bottom-to-top");
