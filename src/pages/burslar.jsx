@@ -3,9 +3,11 @@ import { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext";
 import { getText } from "../language";
 import Wrapper from "../layout/wrapper";
+import { Box } from "@chakra-ui/react";
+import BurslarAccordion from "../ui/BurslarAccordion ";
 
 function Burslar() {
-    const { selectedLanguage, selectedFlag, changeLanguage } = useContext(LanguageContext)
+    const { selectedLanguage, selectedFlag, changeLanguage } = useContext(LanguageContext);
 
     return (
         <>
@@ -34,6 +36,14 @@ function Burslar() {
                             <span className="font-semibold">{getText("burslariPageEndSpan1")}</span> {getText("burslariPageEndSpan2")}
                         </p>
                     </div>
+                    <Box
+                        pt="10"
+                        minHeight="calc(100vh - 22.8rem)"
+                        bg="gray.100"
+                        p={6}
+                    >
+                        <BurslarAccordion />
+                    </Box>
                 </Wrapper>
             </div>
         </>
